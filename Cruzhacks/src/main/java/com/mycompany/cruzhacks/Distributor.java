@@ -11,4 +11,9 @@ package com.mycompany.cruzhacks;
  */
 public class Distributor extends User{
     
+    public Distributor(String name, String email, String password, String address,
+            String phone, boolean type){
+        super(name, email, password, address, phone, false);
+    }
+    
 }
