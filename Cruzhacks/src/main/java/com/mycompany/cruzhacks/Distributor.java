@@ -9,6 +9,6 @@ package com.mycompany.cruzhacks;
  *
  * @author xavierloera
  */
-public class Distributor {
+public class Distributor extends User{
     
 }

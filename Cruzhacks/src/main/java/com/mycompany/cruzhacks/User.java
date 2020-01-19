@@ -9,6 +9,12 @@ package com.mycompany.cruzhacks;
  *
  * @author xavierloera
  */
-public class Collector extends User{
+public class User {
+    public String name;
+    public String phone;
+    public String email;
+    public String address;
+    public boolean userType; //1 for collector, 0 for distributor
+    private String password;
     
 }
