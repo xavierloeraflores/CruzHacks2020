@@ -10,5 +10,10 @@ package com.mycompany.cruzhacks;
  * @author xavierloera
  */
 public class Collector extends User{
+    public boolean collectsCardboard;
+    public boolean collectsMetal;
+    public boolean collectsEwaste;
+    public boolean collectsBattery;
+    public boolean collectsWood;
     
 }
