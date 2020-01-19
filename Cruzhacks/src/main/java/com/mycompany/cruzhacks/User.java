@@ -10,11 +10,41 @@ package com.mycompany.cruzhacks;
  * @author xavierloera
  */
 public class User {
-    public String name;
-    public String phone;
-    public String email;
-    public String address;
-    public boolean userType; //1 for collector, 0 for distributor
+    private String name;
+    private String phone;
+    private String email;
+    private String address;
+    private boolean userType; //1 for collector, 0 for distributor
     private String password;
+    
+    public User(String inname, String inemail, String inpassword, String inaddress, 
+            String inphone, boolean intype ){
+        name=inname; 
+        email=inemail;
+        password=inpassword;
+        address=inaddress;
+        phone=inphone;
+        userType=intype;
+                                    
+    }
+    public String getName(){
+        return this.name;
+    }
+    public String getAddress(){
+        return this.address;
+    }
+    public String getEmail(){
+        return this.email;
+    }
+    public boolean getUserType(){
+        return this.userType;
+    }
+    
+    public boolean checkPass(String intext){
+        if(password.equals(intext)){
+            return true;
+        }
+        return false;
+    }
     
 }
