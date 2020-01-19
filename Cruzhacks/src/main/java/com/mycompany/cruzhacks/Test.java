@@ -11,7 +11,7 @@ package com.mycompany.cruzhacks;
  */
 public class Test {
     public static void main(String args[]){
-        Login ab = new Login();
+        LoginPage ab = new LoginPage();
         ab.setVisible(true);
     }
 }
