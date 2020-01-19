@@ -63,7 +63,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel6" min="-2" pref="81" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jTextField5" min="-2" pref="182" max="-2" attributes="0"/>
+                          <Component id="address" min="-2" pref="182" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -76,8 +76,8 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jTextField4" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
-                                      <Component id="jTextField3" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                                      <Component id="name" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
+                                      <Component id="email" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
                                       <Component id="jLabel1" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="32767" attributes="0"/>
@@ -85,7 +85,7 @@
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jTextField6" min="-2" pref="182" max="-2" attributes="0"/>
+                                  <Component id="password" min="-2" pref="182" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
                           </Group>
@@ -95,7 +95,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jTextField7" min="-2" pref="182" max="-2" attributes="0"/>
+                                  <Component id="phone" min="-2" pref="182" max="-2" attributes="0"/>
                               </Group>
                               <Component id="jLabel8" alignment="0" min="-2" pref="301" max="-2" attributes="0"/>
                           </Group>
@@ -123,7 +123,7 @@
                   <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jTextField4" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="name" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
@@ -134,23 +134,23 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField3" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="email" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                               <Component id="jLabel5" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel4" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                              <Component id="jTextField6" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="password" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel6" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                              <Component id="jTextField5" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="address" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="jLabel7" alignment="1" min="-2" pref="22" max="-2" attributes="0"/>
-                              <Component id="jTextField7" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="phone" alignment="1" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="50" max="32767" attributes="0"/>
                       </Group>
@@ -186,34 +186,28 @@
             <Property name="text" type="java.lang.String" value="Password: "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField3">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="email">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="emailActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="text" type="java.lang.String" value="Email: "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField4">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="name">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField5">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="address">
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="text" type="java.lang.String" value="Address:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField6">
+        <Component class="javax.swing.JTextField" name="password">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
@@ -221,10 +215,7 @@
             <Property name="text" type="java.lang.String" value="Phone:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField7">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="phone">
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
@@ -237,6 +228,7 @@
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="jCheckBox1PropertyChange"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">

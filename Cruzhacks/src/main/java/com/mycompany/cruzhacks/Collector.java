@@ -16,7 +16,7 @@ public class Collector extends User{
     private boolean collectsBattery;
     private boolean collectsWood;
     public Collector(String name, String email, String password, String address,
-            String phone, boolean type){
+            String phone){
         super(name, email, password, address, phone, true);
         collectsCardboard=false;
         collectsMetal=false;
