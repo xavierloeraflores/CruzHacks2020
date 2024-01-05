@@ -1,7 +1,8 @@
 repo_name: xavierloeraflores/CruzHacks2020
 report_id: a8383093e7264459ace8452e8cc636e0
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T13:01:15+00:00'
+timestamp: '2024-01-05T08:38:20+00:00'
 requested_by: xavierloeraflores
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/xavierloeraflores/CruzHacks2020
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,4 +27,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/xavierloeraflores/CruzHacks2020
   detection_source: Repo Metadata
